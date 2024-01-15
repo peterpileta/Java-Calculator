@@ -22,10 +22,9 @@ public class Calculator {
             break;
          case '/': ans = num1 / num2;
             break;
-      default: System.out.printf("Error! Operator tidak tepat!");
+      default: System.out.printf("Error! Incorrect operator!");
          return;
       }
-      System.out.println("\n///// " + name);
       System.out.println(num1 + " " + op + " " + num2 + " = " + ans);
    }
 }
